@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">My Website</a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Pictures">Pictures </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<header class="bg-primary text-white text-center py-5">
+      <h1>Welcome to My Website</h1>
+      <p>A simple webpage using Bootstrap</p>
+      <a href="#contact" class="btn btn-light">Get Started</a>
+    </header>
+<div class="container my-5" id="about">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/about.jpg" class="w-100" alt="About Image" />
+        </div>
+        <div class="col-md-6">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            suscipit sunt amet fuga dolorem, eligendi incidunt, pariatur
+            mollitia magnam explicabo totam rem magni vitae! Eius consequatur
+            veniam error autem vitae? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, ex neque porro facere temporibus cupiditate, 
+        nisi perspiciatis dignissimos eum distinctio quaerat debitis delectus sapiente, repellendus aut! Dicta totam tempore vitae sequi magnam asperiores nisi, incidunt rem et neque. Voluptatum optio unde dolorum veniam atque veritatis explicabo maxime mollitia eligendi nemo?
+          </p>
+                Photo by 
+                <a href="https://unsplash.com/es/@erol">Erol ahmed</a> 
+                on <a href="https://unsplash.com/es/fotos/montanas-cubiertas-de-nieve-d3pTF3r_hwY">unsplash</a>
+            </p>
+        </div>
+      </div>
+    </div>
+<section class="container my-5" id="pictures">
+      <h2 class="text-center">Pictures</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+            src="images/sky.jpg"
+            class="card-img-top"
+            alt="Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sky</h5>
+              <p class="card-text">
+                Photo by
+                <a href="https://unsplash.com/es/@josemizrahi">Jose Mizrahi</a>
+                on
+                <a
+                href="https://unsplash.com/es/fotos/cielo-azul-y-nubes-blancas-sobre-el-mar-vxsUdVoAlUA">unsplash</a>
+                 </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">  
+            <img src="images/mountain.jpg" class="card-img-top" alt="Image"/>
+                         <div class="card-body">
+              <h5 class="card-title">Mountain</h5>
+              <p class="card-text">
+                Photo by
+                <a
+                  href="https://unsplash.com/es/@kalenemsley">Kalen Emsley</a>
+                  on <a
+                  href="https://unsplash.com/es/fotos/montana-verde-a-traves-del-cuerpo-de-agua-Bkci_8qcdvQ">unsplash</a>
+                  </a>
+                 </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images/water.jpg" class="card-img-top" alt="Image"/>
+                <div class="card-body"
+                <h5>class="card-title"> Water</h5>
+                <p class="card-text">
+                Photo by
+                <a
+                  href="https://unsplash.com/es/@rickpsd"> Henrique Ferreira</a>
+                  on <a
+                  href="https://unsplash.com/es/fotos/venecia-italia-durante-el-dia-RKsLQoSnuTc">Unsplash</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+        <section class="container my-5" id="contact">
+      <h2 class="text-center">Contact Us</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea
+            class="form-control"
+            id="message"
+            rows="3"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
+
+    <footer class="bg-dark text-white text-center p-3">
+      &copy; 2025 My Website. All rights reserved.
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"> </script>
+  </body>
+</html>
+

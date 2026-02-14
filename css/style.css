@@ -1,0 +1,59 @@
+:root {
+  --bs-body-font-family: 'Inconsolata', monospace;
+}
+
+body{
+    font-size: 20px;
+    margin-left: 10em;
+    margin-right: 10em;
+    color: darkslategrey;
+}
+
+h1{
+    color: coral;
+}
+
+#para1 {
+    color: firebrick;
+    background-color: beige;
+}
+
+#para2 {
+    color: darkorchid;
+    margin-top: 50px;
+}
+
+ul{
+    font-style: italic;
+}
+
+.Alternative-Rock{
+    color: red;
+}
+
+.Trap{
+    color:indigo;
+}
+
+.Pop-Rock{
+    color: aqua;
+}
+
+.Rock{
+    color:orange;
+}
+
+.Reggaeton{
+    color: lightgreen;
+}
+
+img{
+    float: left;
+    border-radius: 2em;
+    margin-right: 3em;
+}
+
+div>p{
+    font-style: italic;
+    color: crimson;
+}
